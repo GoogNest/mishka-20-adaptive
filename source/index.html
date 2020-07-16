@@ -3,46 +3,71 @@
 
 <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
+    <title>Мишка — интернет-магазин игрушек</title>
 </head>
 
-<body>
-    <header class="page-header">
-        <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="img/logo.svg" alt="Логотип Мишка" width="86" height="35"/>
-        </a>
+<body class="page">
+    <header class="page-header page-header--index">
         <nav class="main-nav">
-            <button class="main-nav__toggle" type="button">открыть меню</button>
-            <ul class="site-list main-nav__list">
-                <li class="site-list__item">
-                    <a href="#">Каталог товаров</a>
+            <a class="main-nav__logo header-logo" aria-label="Мишка">
+                <img class="header-logo__image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип сайта Мишка">
+            </a>
+            <button class="main-nav__toggle" id="toggle-button" type="button" aria-label="Меню"></button>
+            
+            <ul class="main-nav__site-list site-navigation">
+                <li class="site-navigation__item">
+                    <a class="site-navigation__link" href="catalog.html">Каталог товаров</a>
                 </li>
-                <li class="site-list__item">
-                    <a href="#">Вязание на заказ</a>
-                </li>
-                <li class="site-list__item">
-                    <a href="#">Поиск по сайту</a>
-                </li>
-                <li class="site-list__item">
-                    <a href="#">Корзина: пока пуста</a>
+                <li class="site-navigation__item">
+                    <a class="site-navigation__link" href="form.html">Вязание на заказ</a>
                 </li>
             </ul>
+            
+            <ul class="main-nav__user-list user-navigation">
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link user-navigation__link--search" href="#">
+                        Поиск по сайту
+                    </a>
+                </li>
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link user-navigation__link--cart" href="#">
+                        Корзина: пока пуста
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="main-nav__stock-list stock-navigation">
+                <li class="stock-navigation__item">
+                    <a class="stock-navigation__link" href="#">
+                        Новые поступления
+                    </a>
+                </li>
+                <li class="stock-navigation__item">
+                    <a class="stock-navigation__link" href="#">
+                        Распродажа
+                    </a>
+                </li>
+            </ul>
+            
+            <p class="main-nav__text">Бесплатная доставка по России</p>
         </nav>
-            <ul class="info-list">
-                <li class="info-list__item">
-                    <span>Новые поступления</span>
-                </li>
-                <li class="info-list__item">
-                    <span>Распродажа</span>
-                </li>
-                <li class="info-list__item">
-                    <span>Бесплатная доставка по России</span>
-                </li>
-            </ul>
     </header>
     
     <main class="page-main">
-        <h1 class="page-main__title"></h1>
+        
+        <section class="main-header">
+            <h1 class="main-title">Милые штуки ручной работы для дома</h1>
+            
+            <img class="main-title__image" src="img/hero-mobile.jpg" alt="Сплетенный домик"/>
+            
+            <ul class="">
+                
+            </ul>
+        </section>
+        
+        <section class="product">
+            <h2></h2>
+        </section>
     </main>
 </body>
 
