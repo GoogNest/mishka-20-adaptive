@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мишка — интернет-магазин игрушек</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="inner-page">
+    <header class="page-header page-header--index">
+        <nav class="main-nav">
+            <a class="main-nav__logo header-logo" href="index.html" aria-label="Мишка">
+                <img class="header-logo__image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип сайта Мишка">
+            </a>
+            <button class="main-nav__toggle" id="toggle-button" type="button" aria-label="Меню"></button>
+            
+            <ul class="main-nav__site-list site-navigation">
+                <li class="site-navigation__item">
+                    <a class="site-navigation__link" href="catalog.html">Каталог товаров</a>
+                </li>
+                <li class="site-navigation__item">
+                    <a class="site-navigation__link" href="form.html">Вязание на заказ</a>
+                </li>
+            </ul>
+            
+            <ul class="main-nav__user-list user-navigation">
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link user-navigation__link--search" href="#">
+                        Поиск по сайту
+                    </a>
+                </li>
+                <li class="user-navigation__item">
+                    <a class="user-navigation__link user-navigation__link--cart" href="#">
+                        Корзина: пока пуста
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="main-nav__stock-list stock-navigation">
+                <li class="stock-navigation__item">
+                    <a class="stock-navigation__link" href="#">
+                        Новые поступления
+                    </a>
+                </li>
+                <li class="stock-navigation__item">
+                    <a class="stock-navigation__link" href="#">
+                        Распродажа
+                    </a>
+                </li>
+            </ul>
+            
+            <p class="main-nav__text">Бесплатная доставка по России</p>
+        </nav>
+    </header>
+
+    <main class="inner-page-main">
+        <h1 class="inner-page-main__title">Каталог товаров</h1>
+
+        <section class="catalog">
+            <h2 class="visually-hidden">Каталог товаров</h2>
+
+            <ul class="catalog-list">
+                <li class="catalog-list__item catalog-item">
+                    <img class="catalog-item__img" src="img/catalog-item.jpg" alt="Картинка связанного зайчика">
+
+                    <b class="catalog-item__name">Зайчик-попрыгайчик</b>
+
+                    <p class="catalog-item__description">Рост 30 см, вес 200 г</p>
+
+                    <p class="catalog-item__buy>
+                        <span class="catalog-item__price">1 200 руб.</span>
+                        <button type="button" class="catalog-item__button" aria-label="Кнопка Купить"></button>
+                    </p>
+                </li>
+                <li class="catalog-list__item catalog-item">
+                    <img class="catalog-item__img" src="img/catalog-item.jpg" alt="Картинка связанной корзинки">
+
+                    <b class="catalog-item__name">Корзинка для белья</b>
+
+                    <p class="catalog-item__description">Диаметр 15 см, высота 10 см</p>
+                    
+                    <p class="catalog-item__buy>
+                        <span class="catalog-item__price">690 руб.</span>
+                        <button type="button" class="catalog-item__button" aria-label="Кнопка Купить"></button>
+                    </p>
+                </li>
+                <li class="catalog-list__item catalog-item">
+                    <img class="catalog-item__img" src="img/catalog-item.jpg" alt="Картинка связанной большой корзинки">
+
+                    <b class="catalog-item__name">Большая корзинка<br>для игрушек</b>
+
+                    <p class="catalog-item__description">Диаметр 30 см, высота 30 см</p>
+                    
+                    <p class="catalog-item__buy>
+                        <span class="catalog-item__price">1 500 руб.</span>
+                        <button type="button" class="catalog-item__button" aria-label="Кнопка Купить"></button>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="video">
+            <h2 class="visually-hidden">Видео процесса производства</h2>
+
+            <div class="video-iframe video__iframe">
+                <img class="video-iframe__background-image" src="img/background-video/jpg" alt="Фоновая Картинка Видео">
+
+                <button class="video-iframe__button button" aria-label="Проиграть видео"></button>
+            </div>
+
+            <div class="video-description video__description">
+                <h3 class="video-description__title">Процесс<br>производства</h3>
+
+                <p class="video-description__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+
+                <button class="video-description__order button">СДелать заказ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <a class="page-footer__logo footer-logo" aria-label="Мишка">
+            <img class="footer-logo__image" src="img/logo.svg" width="102" height="34" alt="Логотип сайта Мишка">
+        </a>
+        
+        <ul class="social-links">
+            <li class="social-links__item">
+                <a class="social-links__link" href="https://www.instagram.com" aria-label="Instagram"></a>
+            </li>
+            <li class="social-links__item">
+                <a class="social-links__link" href="https://www.facebook.com" aria-label="Facebook"></a>
+            </li>
+            <li class="social-links__item">
+                <a class="social-links__link" href="https://twitter.com" aria-label="Twitter"></a>
+            </li>
+        </ul>
+        
+        <p class="page-footer__copyright">
+            <span class="page-footer__copyright-text">Разработано</span>
+            
+            <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy">
+                <img class="page-footer__copyright-image" src="img/academy.svg" width="27" height="34" alt="Логотип HTML Academy">
+            </a>
+        </p>
+    </footer>
+    
+    <section class="modal add-to-cart page__add-to-cart">
+        <h2 class="add-to-cart__title section-title">добавить в корзину</h2>
+        
+        <form class="form-cart" action="https://echo.htmlacademy.ru" method="POST">
+            <fieldset class="form-cart__fieldset">
+                <legend class="form-cart__legend">Выберите размер:</legend>
+                
+                <ul class="form-cart__list form-list">
+                    <li class="form-list__item">
+                        <input class="form-cart__radio visually-hidden" type="radio" id="size-s" name="size" value="1" checked>
+                        <label for="size-s" class="form-cart__label">S</label>
+                    </li>
+                    <li class="form-list__item">
+                        <input class="form-cart__radio visually-hidden" type="radio" id="size-m" name="size" value="1">
+                        <label for="size-m" class="form-cart__label">M</label>
+                    </li>
+                    <li class="form-list__item">
+                        <input class="form-cart__radio visually-hidden" type="radio" id="size-l" name="size" value="1">
+                        <label for="size-l" class="form-cart__label">L</label>
+                    </li>
+                </ul>
+            </fieldset>
+            
+            <button type="submit" class="form-cart__button button">Добавить</button>
+        </form>
+    </section>
+</body>
+</html>
