@@ -1,0 +1,24 @@
+.promo__title {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center; }
+
+.promo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.promo-list__link {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  display: block;
+  background-color: #63d1bb; }
+
+.promo-list__link--toy {
+  background-color: #56c3b2; }
+
+/*# sourceMappingURL=promo.css.map */

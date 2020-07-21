@@ -1,0 +1,37 @@
+.user-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.user-navigation__link {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: none;
+    
+    border: none;
+    height: 79px;
+    width: 100%;
+    padding-top: 31px;
+    padding-bottom: 31px;
+
+
+    &:hover,
+    &:focus {
+        border: none;
+        background-color: transparent;
+        color: #000000;
+        opacity: 0.6;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
+}

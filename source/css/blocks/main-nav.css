@@ -1,0 +1,14 @@
+.main-nav {
+  position: relative; }
+
+.main-nav__header-logo {
+  display: flex;
+  justify-content: center; }
+
+.main-nav__text {
+  display: none; }
+
+.main-nav__stock-list {
+  display: none; }
+
+/*# sourceMappingURL=main-nav.css.map */

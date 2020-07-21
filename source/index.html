@@ -11,30 +11,32 @@
 </head>
 
 <body class="page">
-    <header class="page-header page-header--index">
+    <header class="page-header page-header--index container">
         <nav class="main-nav">
-            <a class="main-nav__logo header-logo" aria-label="Мишка">
-                <img class="header-logo__image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип сайта Мишка">
-            </a>
-            <button class="main-nav__toggle" id="toggle-button" type="button" aria-label="Меню"></button>
-            
+            <div class="main-nav__header-logo">
+                <a class="header-logo__logo" aria-label="Мишка">
+                    <img class="header-logo__image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип сайта Мишка">
+                </a>
+                <button class="header-logo__toggle" id="toggle-button" type="button" aria-label="Меню"></button>
+            </div>
+
             <ul class="main-nav__site-list site-navigation">
                 <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="catalog.html">Каталог товаров</a>
+                    <a class="site-navigation__link button" href="catalog.html">Каталог товаров</a>
                 </li>
                 <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="form.html">Вязание на заказ</a>
+                    <a class="site-navigation__link button" href="form.html">Вязание на заказ</a>
                 </li>
             </ul>
             
             <ul class="main-nav__user-list user-navigation">
                 <li class="user-navigation__item">
-                    <a class="user-navigation__link user-navigation__link--search" href="#">
+                    <a class="user-navigation__link button user-navigation__link--search" href="#">
                         Поиск по сайту
                     </a>
                 </li>
                 <li class="user-navigation__item">
-                    <a class="user-navigation__link user-navigation__link--cart" href="#">
+                    <a class="user-navigation__link button user-navigation__link--cart" href="#">
                         Корзина: пока пуста
                     </a>
                 </li>
@@ -57,21 +59,23 @@
         </nav>
     </header>
     
-    <main class="page-main">
+    <main class="page-main container">
         <h1 class="visually-hidden">Мишка — интернет-магазин игрушек ручной работы</h1>
         
         <section class="promo">
-            <h2 class="promo__title section-title">Милые штуки ручной работы для дома</h2>
+            <h2 class="promo__title section-title">Милые штуки ручной<br> работы для дома</h2>
             <img class="title__image" src="img/hero-mobile@1x.jpg" alt="Сплетенный домик"/>
             
             <ul class="promo-list">
                 <li class="promo-list__item">
-                    <a class="promo-list__link" href="#">Предметы интерьера
+                    <a class="promo-list__link promo-list__link--interior" href="#">Предметы интерьера
                         <img class="promo-list__img" src="img/icon-interior.svg" alt="Светильник">
                     </a>
                 </li>
                 <li class="promo-list__item">
-                    <a class="promo-list__link" href="#">Детские игрушки</a>
+                    <a class="promo-list__link promo-list__link--toy" href="#">Детские игрушки
+                        <img class="promo-list__img" src="img/icon-toy.svg" alt="Конструктор">
+                    </a>
                 </li>
             </ul>
         </section>
@@ -136,9 +140,11 @@
             </blockquote>
             
             <div class="reviews__navigation">
-                <button class="reviews__nav-button reviews__nav-button--prev" aria-label="Назад"></button>
-                <button class="reviews__nav-button reviews__nav-button--next" aria-label="Вперёд"></button>
-                
+                <div class="reviews__nav-buttons">
+                    <button class="reviews__nav-button reviews__nav-button--prev" aria-label="Назад"></button>
+                    <button class="reviews__nav-button reviews__nav-button--next" aria-label="Вперёд"></button>
+                </div>
+
                 <a class="reviews__write-button button" href="#">Написать</a>
             </div>
         </section>
@@ -164,12 +170,12 @@
         </section>
     </main>
     
-    <footer class="page-footer">
+    <footer class="page-footer container">
         <a class="page-footer__logo footer-logo" aria-label="Мишка">
             <img class="footer-logo__image" src="img/logo.svg" width="102" height="34" alt="Логотип сайта Мишка">
         </a>
         
-        <ul class="social-links">
+        <ul class="page-footer__socials social-links">
             <li class="social-links__item">
                 <a class="social-links__link" href="https://www.instagram.com" aria-label="Instagram"></a>
             </li>
@@ -190,7 +196,7 @@
         </p>
     </footer>
     
-    <section class="modal add-to-cart page__add-to-cart">
+    <section class="modal container add-to-cart page__add-to-cart">
         <h2 class="add-to-cart__title section-title">добавить в корзину</h2>
         
         <form class="form-cart" action="https://echo.htmlacademy.ru" method="POST">

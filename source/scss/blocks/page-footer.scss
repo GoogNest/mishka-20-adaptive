@@ -1,0 +1,25 @@
+.page-footer__logo {
+    display: none;
+}
+
+.page-footer__socials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer__copyright-text {
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.page-footer__copyright-link {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+}

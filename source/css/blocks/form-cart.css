@@ -1,0 +1,18 @@
+.form-cart__legend {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #444444; }
+
+.form-cart__label {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #444444; }
+
+.form-cart__button {
+  background-color: #63d1bb;
+  color: #ffffff;
+  border: none; }
+
+/*# sourceMappingURL=form-cart.css.map */

@@ -1,0 +1,14 @@
+.header-logo__logo {
+  margin: 22px auto; }
+
+.header-logo__toggle {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border: 0;
+  top: 29px;
+  right: 0;
+  background-color: transparent;
+  background-image: url("../../img/menu-close.png"); }
+
+/*# sourceMappingURL=header-logo.css.map */
