@@ -15,13 +15,24 @@
     font-weight: 700;
     color: #000000;
     text-transform: none;
+    text-align: left;
     
     border: none;
     height: 79px;
-    width: 100%;
-    padding-top: 31px;
-    padding-bottom: 31px;
+    padding: 27px 46px;
 
+    position: relative;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 300%;
+        height: 1px;
+        top: 0;
+        left: -100%;
+        background-color: #ececec;
+    }
 
     &:hover,
     &:focus {
@@ -35,4 +46,3 @@
         opacity: 0.3;
     }
 }
-

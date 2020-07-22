@@ -1,10 +1,20 @@
+.week-goods {
+  display: flex;
+  flex-direction: column; }
+
 .week-goods__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 28px;
   font-size: 25px;
   line-height: 30px;
   font-weight: 700;
   color: #000000; }
 
 .week-goods__mark {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
   font-size: 17px;
   line-height: 20px;
   font-weight: 700;
@@ -12,21 +22,58 @@
   color: #63d1bb; }
 
 .week-goods__description {
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   color: #444444; }
 
 .week-goods__table {
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+  min-height: 120px;
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
   color: #444444; }
 
+.week-goods__table-row {
+  display: block;
+  box-sizing: border-box;
+  min-height: 40px;
+  min-width: 260px;
+  margin-left: -1px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ececec; }
+  .week-goods__table-row:first-child {
+    min-height: 30px;
+    padding: 0; }
+
+.week-goods__table-cell {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  min-width: 92px; }
+
+.week-goods__image {
+  display: block;
+  margin-top: 22px; }
+
 .week-goods__price {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 28px;
   color: #444444; }
+
+.week-goods__button {
+  height: 50px;
+  padding-top: 13px; }
 
 /*# sourceMappingURL=week-goods.css.map */

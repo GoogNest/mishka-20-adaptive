@@ -1,13 +1,41 @@
+.contacts {
+  display: flex;
+  flex-direction: column; }
+
 .contacts__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 88px;
+  margin-left: -2px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
   color: #000000; }
 
 .contacts__list {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
   color: #444444; }
+
+.contacts__list-term {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: -1px; }
+
+.contacts__list-description {
+  display: inline-block;
+  margin-inline-start: unset;
+  margin-left: 28px;
+  padding-top: 28px; }
+
+.contacts__list-description--email {
+  border-bottom: 1px solid #62d1ba;
+  margin-left: 26px; }
+
+.contacts__list-term--adress {
+  padding-bottom: -100px; }
 
 /*# sourceMappingURL=contacts.css.map */

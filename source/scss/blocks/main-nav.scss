@@ -1,5 +1,17 @@
 .main-nav {
     position: relative;
+    background-color: #ffffff;
+
+    &::after {
+        content: "";
+
+        position: absolute;
+        width: 300%;
+        height: 1px;
+        bottom: 0;
+        left: -100%;
+        background-color: #ececec;
+    }
 }
 
 .main-nav__header-logo {

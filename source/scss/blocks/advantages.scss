@@ -1,4 +1,14 @@
+.advantages{
+    display: flex;
+    flex-direction: column;
+}
+
 .advantages__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 71px;
+    margin-left: -1px;
+
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
@@ -16,4 +26,123 @@
     line-height: 20px;
     font-weight: 700;
     color: #000000;
+
+    position: relative;
+
+    box-sizing: border-box;
+    min-height: 124px;
+    padding-top: 84px;
+    padding-right: 80px;
+}
+
+.advantages__list-item--ecology{
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 32px;
+        left: 8px;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-flower.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.advantages__list-item--style {
+    padding-right: 60px;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 32px;
+        left: 0;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-money.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.advantages__list-item--likes {
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 30px;
+        left: 6px;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-heart.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.advantages__list-item--handmade {
+    padding-right: 40px;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 32px;
+        left: 4px;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-ball.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.advantages__list-item--support {
+    padding-top: 82px;
+    padding-right: 1px;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 32px;
+        left: -6px;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-rocket.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.advantages__list-item--gift {
+    padding-top: 82px;
+    padding-right: 10px;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        width: 60px;
+        height: 60px;
+
+        bottom: 34px;
+        left: 2px;
+
+        background-color: transparent;
+        background-image: url("../../img/icon-feature-gift.svg");
+        background-repeat: no-repeat;
+    }
 }

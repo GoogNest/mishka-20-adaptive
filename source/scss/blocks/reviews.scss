@@ -1,4 +1,9 @@
 .reviews__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 52px;
+    margin-left: -2px;
+
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
@@ -8,9 +13,14 @@
 .reviews__content {
     margin: 0;
     padding: 0;
+
+    margin-top: 26px;
 }
 
 .reviews__text {
+    margin: 0;
+    padding: 0;
+
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
@@ -22,6 +32,9 @@
 }
 
 .reviews__author-name {
+    display: inline-block;
+    margin-top: 26px;
+
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
@@ -37,6 +50,8 @@
 
 .reviews__nav-buttons {
     display: flex;
+
+    margin-top: 30px;
 }
 
 .reviews__nav-button {
@@ -58,4 +73,12 @@
 
 .reviews__nav-button--next {
     background-image: url("../../img/icon-right-arrow.svg");
+}
+
+.reviews__write-button {
+    margin-top: 37px;
+    height: 52px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px;
 }

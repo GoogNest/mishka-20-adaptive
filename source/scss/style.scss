@@ -31,10 +31,6 @@ html, body {
   
     background-color: #ffffff;
   }
-
-  img {
-      max-width: 100%;
-  }
   
   a {
     text-decoration: none;
@@ -75,3 +71,4 @@ html, body {
   @import "blocks/social-links.scss";
   @import "blocks/add-to-cart.scss";
   @import "blocks/form-cart.scss";
+  @import "blocks/page-header.scss";

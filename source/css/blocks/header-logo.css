@@ -1,5 +1,8 @@
 .header-logo__logo {
-  margin: 22px auto; }
+  width: 86px;
+  height: 35px;
+  margin-top: 22px;
+  margin-bottom: 22px; }
 
 .header-logo__toggle {
   position: absolute;

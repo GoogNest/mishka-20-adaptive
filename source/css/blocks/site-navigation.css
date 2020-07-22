@@ -13,11 +13,19 @@
   font-weight: 700;
   color: #000000;
   text-transform: none;
+  text-align: left;
   border: none;
   height: 79px;
-  width: 100%;
-  padding-top: 31px;
-  padding-bottom: 31px; }
+  padding: 27px 46px;
+  position: relative; }
+  .site-navigation__link::before {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+    background-color: #ececec; }
   .site-navigation__link:hover, .site-navigation__link:focus {
     border: none;
     background-color: transparent;

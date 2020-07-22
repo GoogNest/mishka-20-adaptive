@@ -1,24 +1,68 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
 .promo__title {
+  padding: 0;
+  margin: 0;
+  margin-top: 72px;
+  margin-bottom: 122px;
   font-size: 27px;
   line-height: 30px;
   font-weight: 700;
   color: #000000;
   text-align: center; }
 
+.promo__image {
+  position: absolute;
+  z-index: -1;
+  width: 575px;
+  height: 373px;
+  top: -17px;
+  left: -157px; }
+
 .promo-list {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 320px;
+  margin-left: -30px; }
+
+.promo-list__item {
+  min-height: 103px; }
+
+.promo-list__item--iterior {
+  background-color: #63d1bb; }
+
+.promo-list__item--toy {
+  background-color: #56c3b2; }
 
 .promo-list__link {
+  display: block;
+  position: relative;
+  min-height: 103px; }
+
+.promo-list__link-text {
+  display: inline-block;
+  width: 116px;
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
-  display: block;
-  background-color: #63d1bb; }
+  margin-left: 28px;
+  margin-top: 25px; }
 
-.promo-list__link--toy {
-  background-color: #56c3b2; }
+.promo-list__img--interior {
+  position: absolute;
+  top: 23px;
+  right: 36px;
+  opacity: 0.5; }
+
+.promo-list__img--toy {
+  position: absolute;
+  top: 21px;
+  right: 27px;
+  opacity: 0.5; }
 
 /*# sourceMappingURL=promo.css.map */
