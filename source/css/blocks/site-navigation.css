@@ -21,10 +21,10 @@
   .site-navigation__link::before {
     content: "";
     position: absolute;
-    width: 300%;
+    width: 320px;
     height: 1px;
     top: 0;
-    left: -100%;
+    left: -30px;
     background-color: #ececec; }
   .site-navigation__link:hover, .site-navigation__link:focus {
     border: none;
@@ -33,5 +33,11 @@
     opacity: 0.6; }
   .site-navigation__link:active {
     opacity: 0.3; }
+
+@media (min-width: 768px) {
+  .site-navigation {
+    order: 2;
+    display: flex;
+    width: 334px; } }
 
 /*# sourceMappingURL=site-navigation.css.map */

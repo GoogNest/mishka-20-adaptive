@@ -3,20 +3,42 @@
 
 .page-footer__socials {
   list-style: none;
+  width: 320px;
+  height: 80px;
   margin: 0;
   padding: 0;
+  margin-top: 40px;
+  margin-left: -30px;
+  position: relative;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #f1f1f1; }
+
+.page-footer__copyright {
+  width: 320px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  margin-left: -30px;
+  display: flex;
+  background-color: #f1f1f1; }
 
 .page-footer__copyright-text {
   font-size: 19px;
   line-height: 20px;
   font-weight: 700;
-  color: #000000; }
+  color: #000000;
+  display: inline-block;
+  width: 130px;
+  height: 26px;
+  margin-left: 68px;
+  margin-top: 26px; }
 
 .page-footer__copyright-link {
   display: inline-block;
   width: 27px;
-  height: 24px; }
+  height: 34px;
+  margin-top: 24px;
+  margin-left: 26px; }
 
 /*# sourceMappingURL=page-footer.css.map */

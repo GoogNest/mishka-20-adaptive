@@ -6,10 +6,10 @@
         content: "";
 
         position: absolute;
-        width: 300%;
+        width: 320px;
         height: 1px;
         bottom: 0;
-        left: -100%;
+        left: -30px;
         background-color: #ececec;
     }
 }
@@ -25,4 +25,17 @@
 
 .main-nav__stock-list {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      outline: 1px solid black;
+    }
+
+    .main-nav__text {
+        order: 3;
+        display: inline-block;
+    }
 }

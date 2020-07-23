@@ -3,4 +3,12 @@
     margin: 0 auto;
     padding: 0 30px;
   }
+
+  @media (min-width: 768px) {
+    .container {
+      width: 668px;
+      padding: 0 50px;
+      background-color: black;
+    }
+  }
   

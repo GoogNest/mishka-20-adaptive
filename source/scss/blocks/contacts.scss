@@ -29,13 +29,14 @@
     display: inline-block;
     margin-top: 25px;
     margin-left: -1px;
+    vertical-align: top;
 }
 
 .contacts__list-description {
     display: inline-block;
     margin-inline-start: unset;
-    margin-left: 28px;
-    padding-top: 28px;
+    margin-top: 25px;
+    vertical-align: top;
 }
 
 .contacts__list-description--email {
@@ -44,6 +45,40 @@
 }
 
 .contacts__list-term--adress {
-    padding-bottom: -100px;
-    
+    margin-top: 30px;
+}
+
+.contacts__list-description--adress {
+    margin-top: 30px;
+    margin-left: 27px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__button {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+
+    order: 2;
+    box-sizing: border-box;
+    height: 51px;
+    margin-top: 33px;
+    padding-top: 14px;
+}
+
+.contacts__map-wrapper {
+    margin-top: 38px;
+    margin-left: -30px;
+    position: relative;
+}
+
+.contacts__map-marker {
+    display: inline-block;
+    position: absolute;
+    top: 147px;
+    left: 140px;
 }

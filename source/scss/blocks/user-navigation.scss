@@ -30,10 +30,10 @@
         content: "";
 
         position: absolute;
-        width: 300%;
+        width: 320px;
         height: 1px;
         top: 0;
-        left: -100%;
+        left: -30px;
         background-color: #ececec;
     }
 
@@ -85,5 +85,30 @@
         top: 31px;
 
         opacity: 0.2;
+    }
+}
+
+@media (min-width: 768px) {
+    .user-navigation {
+        display: flex;
+        width: 500px;
+        margin-left: auto;
+    }
+
+    .user-navigation__link-text {
+        display: none;
+    }
+    
+    .user-navigation__item {
+        min-height: 89px;
+    }
+
+    .user-navigation__item--search {
+        margin-left: auto;
+        min-height: 89px;
+    }
+
+    .user-navigation__link--cart {
+        padding-right: 0;
     }
 }
