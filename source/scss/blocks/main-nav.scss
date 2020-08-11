@@ -35,7 +35,11 @@
     }
 
     .main-nav__text {
+        font-size: 15px; 
         order: 3;
+        z-index: 2; 
         display: inline-block;
+        margin-left: auto; 
+        background-color: transparent;
     }
 }

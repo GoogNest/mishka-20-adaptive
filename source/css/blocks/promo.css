@@ -72,4 +72,12 @@
   right: 27px;
   opacity: 0.5; }
 
+@media (min-width: 768px) {
+  .promo {
+    width: 768px;
+    margin-left: -50px;
+    margin-top: -121px;
+    background-image: url("../../img/hero-tablet@1x.jpg");
+    background-size: auto auto; } }
+
 /*# sourceMappingURL=promo.css.map */

@@ -51,6 +51,15 @@
     .site-navigation {
         order: 2;
         display: flex;
+        z-index: 2;
         width: 334px;
+        background-color: transparent; 
+    }
+
+    .site-navigation__link {
+        font-size: 15px;
+        padding: 27px 0; 
+        width: 160px; 
+        background-color: transparent; 
     }
 }

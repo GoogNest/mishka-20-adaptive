@@ -26,7 +26,11 @@
     flex-wrap: wrap;
     outline: 1px solid black; }
   .main-nav__text {
+    font-size: 15px;
     order: 3;
-    display: inline-block; } }
+    z-index: 2;
+    display: inline-block;
+    margin-left: auto;
+    background-color: transparent; } }
 
 /*# sourceMappingURL=main-nav.css.map */

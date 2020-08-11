@@ -72,7 +72,17 @@
   .user-navigation__item--search {
     margin-left: auto;
     min-height: 89px; }
+  .user-navigation__link--search {
+    width: 83px;
+    margin-right: 10px; }
+    .user-navigation__link--search::after {
+      top: 35px;
+      left: 0; }
   .user-navigation__link--cart {
-    padding-right: 0; } }
+    padding-right: 0;
+    padding-left: 51px;
+    padding-top: 30px; }
+    .user-navigation__link--cart::after {
+      top: 35px; } }
 
 /*# sourceMappingURL=user-navigation.css.map */
