@@ -43,8 +43,10 @@
     background-color: transparent; }
   .site-navigation__link {
     font-size: 15px;
-    padding: 27px 0;
-    width: 160px;
-    background-color: transparent; } }
+    padding: 19px 0;
+    width: 167px;
+    background-color: transparent; }
+    .site-navigation__link::before {
+      display: none; } }
 
 /*# sourceMappingURL=site-navigation.css.map */

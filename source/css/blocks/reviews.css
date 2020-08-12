@@ -68,4 +68,65 @@
   vertical-align: middle;
   padding: 14px; }
 
+@media (min-width: 768px) {
+  .reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 768px;
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-bottom: 115px;
+    background-image: url(../../img/review@1x.jpg);
+    background-size: auto auto;
+    background-position: left top;
+    background-repeat: no-repeat;
+    position: relative; }
+    .reviews::after {
+      content: "";
+      position: absolute;
+      width: 768px;
+      height: 23px;
+      bottom: -88px;
+      background-image: url("../../img/bg-zigzag-line.svg");
+      background-size: 768px 23px;
+      background-position: -20px top;
+      background-repeat: repeat; }
+  .reviews__title {
+    order: 1;
+    font-size: 43px;
+    line-height: 50px;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 48px; }
+  .reviews__navigation {
+    order: 2;
+    position: relative; }
+  .reviews__nav-buttons {
+    position: absolute;
+    width: 176px;
+    bottom: -278px; }
+  .reviews__nav-button {
+    border: none; }
+  .reviews__write-button {
+    font-size: 17px;
+    line-height: 20px;
+    width: 175px;
+    margin-right: 50px;
+    margin-top: 78px;
+    padding: 16px; }
+  .reviews__content {
+    order: 3;
+    width: 668px;
+    margin: 46px 50px; }
+  .reviews__text {
+    font-size: 17px;
+    line-height: 30px; }
+  .reviews__author-name {
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    margin-top: 58px;
+    margin-bottom: 3px; } }
+
 /*# sourceMappingURL=reviews.css.map */

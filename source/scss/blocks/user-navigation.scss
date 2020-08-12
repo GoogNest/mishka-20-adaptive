@@ -109,23 +109,32 @@
 
     }
 
+    .user-navigation__link {
+        height: 89px;
+    }
+
     .user-navigation__link--search {
         width: 83px;
-        margin-right: 10px; 
+
+        border-left: 1px solid #ececec;
 
         &::after {
-        top: 35px;  
-        left: 0; 
+        top: 36px;  
+        left: 32px; 
     }
 }
 
     .user-navigation__link--cart {
+        width: 265px;
         padding-right: 0;
-        padding-left: 51px;
+        padding-left: 82px;
         padding-top: 30px;
+
+        border-left: 1px solid #ececec;
 
         &::after {
             top: 35px;
+            left: 32px;
         }
     }
 }

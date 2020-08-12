@@ -72,17 +72,22 @@
   .user-navigation__item--search {
     margin-left: auto;
     min-height: 89px; }
+  .user-navigation__link {
+    height: 89px; }
   .user-navigation__link--search {
     width: 83px;
-    margin-right: 10px; }
+    border-left: 1px solid #ececec; }
     .user-navigation__link--search::after {
-      top: 35px;
-      left: 0; }
+      top: 36px;
+      left: 32px; }
   .user-navigation__link--cart {
+    width: 265px;
     padding-right: 0;
-    padding-left: 51px;
-    padding-top: 30px; }
+    padding-left: 82px;
+    padding-top: 30px;
+    border-left: 1px solid #ececec; }
     .user-navigation__link--cart::after {
-      top: 35px; } }
+      top: 35px;
+      left: 32px; } }
 
 /*# sourceMappingURL=user-navigation.css.map */

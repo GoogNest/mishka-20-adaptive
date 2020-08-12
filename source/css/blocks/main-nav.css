@@ -23,13 +23,21 @@
 @media (min-width: 768px) {
   .main-nav {
     display: flex;
-    flex-wrap: wrap;
-    outline: 1px solid black; }
+    flex-wrap: wrap; }
+    .main-nav::after {
+      content: "";
+      position: absolute;
+      width: 768px;
+      height: 1px;
+      bottom: 79px;
+      left: -50px;
+      background-color: #ececec; }
   .main-nav__text {
     font-size: 15px;
     order: 3;
     z-index: 2;
     display: inline-block;
+    margin: 17px 0;
     margin-left: auto;
     background-color: transparent; } }
 

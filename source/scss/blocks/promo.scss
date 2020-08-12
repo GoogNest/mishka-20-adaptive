@@ -105,12 +105,28 @@
 
         background-position: center -15%;
         background-repeat: no-repeat;
+
+        &::after {
+            content: "";
+
+            position: absolute;
+            width: 100%;
+            height: 34px;
+            bottom: -22px;
+            left: 0;
+
+            background-image: url("../../img/bg-zigzag-fill.svg");
+            background-size: 768px auto;
+
+            background-position: left top;
+            background-repeat: no-repeat;
+        }
     } 
 
     .promo__title {
         font-size: 43px;
         line-height: 50px;  
-        margin-top: 161px;
+        margin-top: 153px;
     }
 
     .promo-list {
@@ -123,5 +139,21 @@
     .promo-list__item {
         width: 334px;
         height: 119px;
+    }
+
+    .promo-list__link-text {
+        font-size: 20px;
+        line-height: 30px;
+
+        margin: 27px 36px;
+    }
+
+    .promo-list__img--interior {
+        top: 30px;
+    }
+
+    .promo-list__img--toy {
+        top: 31px;
+        right: 33px;
     }
 }

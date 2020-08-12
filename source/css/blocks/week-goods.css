@@ -84,21 +84,26 @@
   .week-goods__title {
     display: inline-block;
     width: 470px;
-    margin-top: 55px;
-    margin-right: 100px;
+    margin-top: 45px;
+    margin-right: 95px;
     font-size: 43px;
     line-height: 50px; }
   .week-goods__mark {
     display: inline-block;
     width: 70px;
     height: 35px;
+    margin-top: 0;
+    margin-left: 0;
+    line-height: 17px;
     text-align: center; }
   .week-goods__description {
     font-size: 17px;
     line-height: 30px;
     width: 282px;
-    margin-top: 55px;
+    margin-top: 49px;
     padding-right: 52px; }
+  .week-goods__table {
+    margin-top: 41px; }
   .week-goods__image {
     position: absolute;
     right: 0;
@@ -107,9 +112,10 @@
     font-size: 20px;
     line-height: 24px;
     width: 284px;
-    margin-top: 54px;
-    margin-bottom: 32px; }
+    margin-top: 51px;
+    margin-bottom: 35px; }
   .week-goods__button {
-    width: 292px; } }
+    width: 292px;
+    margin-left: -3px; } }
 
 /*# sourceMappingURL=week-goods.css.map */

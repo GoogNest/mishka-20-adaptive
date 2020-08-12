@@ -58,8 +58,12 @@
 
     .site-navigation__link {
         font-size: 15px;
-        padding: 27px 0; 
-        width: 160px; 
+        padding: 19px 0; 
+        width: 167px; 
         background-color: transparent; 
+
+        &::before {
+            display: none;
+        }
     }
 }
