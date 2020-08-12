@@ -76,8 +76,23 @@
   .promo {
     width: 768px;
     margin-left: -50px;
-    margin-top: -121px;
+    margin-top: -79px;
+    min-height: 745px;
     background-image: url("../../img/hero-tablet@1x.jpg");
-    background-size: auto auto; } }
+    background-size: auto auto;
+    background-position: center -15%;
+    background-repeat: no-repeat; }
+  .promo__title {
+    font-size: 43px;
+    line-height: 50px;
+    margin-top: 161px; }
+  .promo-list {
+    display: flex;
+    width: auto;
+    margin-left: 50px;
+    margin-top: auto; }
+  .promo-list__item {
+    width: 334px;
+    height: 119px; } }
 
 /*# sourceMappingURL=promo.css.map */
