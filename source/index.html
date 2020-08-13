@@ -158,7 +158,7 @@
                 <dd class="contacts__list-description contacts__list-description--email">info@mimimishkashop.ru</dd>
                 <dt class="contacts__list-term contacts__list-term--adress">адрес:</dt>
                 <dd class="contacts__list-description contacts__list-description--adress">г. Санкт-Петербург,<br>
-                    ул. Большая<br> Конюшенная,<br>
+                    ул. Большая<br class="contacts__list-description--adres-br"> Конюшенная,<br>
                     д. 19/8, офис 101</dd>
             </dl>
             
@@ -166,8 +166,12 @@
                 <a class="contacts__button button" href="#">Напишите нам</a>
                 
                 <div class="contacts__map-wrapper">
-                    <img class="contacts__map" src="img/content/map-mobile@1x.jpg" alt="карта"/>
+                    <picture>   
+                        <source srcset="img/content/map-tablet@1x.jpg" media="(min-width: 768px)">
+                        <img class="contacts__map" src="img/content/map-mobile@1x.jpg" alt="карта"/>
+                    </picture>
                     <img class="contacts__map-marker" src="img/icon-map-pin.svg" alt="маркер ул. Большая Конюшенная, д. 19/8, офис 101"/>
+                    
                 </div>
             </div>
         </section>
@@ -175,7 +179,7 @@
     
     <footer class="page-footer container">
         <a class="page-footer__logo footer-logo" aria-label="Мишка">
-            <img class="footer-logo__image" src="img/logo.svg" width="102" height="34" alt="Логотип сайта Мишка">
+            <img class="footer-logo__image" src="img/icons/logo-footer.svg" width="102" height="34" alt="Логотип сайта Мишка">
         </a>
         
         <ul class="page-footer__socials social-links">

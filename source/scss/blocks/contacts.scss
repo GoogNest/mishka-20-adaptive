@@ -82,3 +82,63 @@
     top: 147px;
     left: 140px;
 }
+
+@media (min-width: 768px) {
+    .contacts {
+        background-image: url(../../img/icon-flag.svg);
+        background-size: 47px 82px;
+
+        background-position: top 17px right 3px;
+        background-repeat: no-repeat; 
+    }
+
+    .contacts__title {
+        font-size: 43px;
+        line-height: 50px; 
+        margin-top: 30px;
+        margin-left: -5px;
+    }
+
+    .contacts__list-term {
+        font-size: 17px;
+        line-height: 30px;
+
+        margin-top: 50px; 
+    }
+
+    .contacts__list-description {
+        font-size: 17px;
+        line-height: 30px;
+
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .contacts__list-term--adress {
+        margin-left: 48px;
+        margin-right: 3px; 
+    }
+
+    .contacts__list-description--adres-br {
+        display: none;
+    }
+
+    .contacts__map {
+        width: auto;
+
+        margin-top: 18px;
+        margin-left: -20px;  
+    }
+
+    .contacts__map-marker {
+        top: 156px;
+        left: auto;
+        right: 290px; 
+    }
+
+    .contacts__button {
+        margin-top: 50px;
+        margin-left: 220px;  
+        width: 228px;
+    }
+}
