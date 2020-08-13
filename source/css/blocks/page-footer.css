@@ -42,17 +42,29 @@
   margin-left: 26px; }
 
 @media (min-width: 768px) {
-  .page-footer__logo {
-    display: block; }
   .page-footer {
-    display: flex; }
+    display: flex;
+    min-height: 140px;
+    margin-top: 60px;
+    background-color: #f1f1f1; }
+  .page-footer__logo {
+    display: block;
+    margin-top: 48px; }
   .page-footer__socials {
     width: 200px;
     margin: 0;
-    background-color: transparent; }
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 55px; }
+    .page-footer__socials::after {
+      display: none; }
   .page-footer__copyright {
-    width: 200px;
+    width: 170px;
     margin: 0;
-    background-color: transparent; } }
+    margin-top: 32px;
+    background-color: transparent; }
+  .page-footer__copyright-text {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=page-footer.css.map */
