@@ -115,4 +115,8 @@
     top: 31px;
     right: 33px; } }
 
+@media (min-width: 1050px) {
+  .promo {
+    margin-top: 500px; } }
+
 /*# sourceMappingURL=promo.css.map */

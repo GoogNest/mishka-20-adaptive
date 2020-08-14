@@ -9,4 +9,9 @@
     padding: 0 50px;
     background-color: transparent; } }
 
+@media (min-width: 1050px) {
+  .container {
+    width: 1150px;
+    outline: 1px solid black; } }
+
 /*# sourceMappingURL=container.css.map */

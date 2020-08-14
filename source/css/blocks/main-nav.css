@@ -41,4 +41,17 @@
     margin-left: auto;
     background-color: transparent; } }
 
+@media (min-width: 1050px) {
+  .main-nav {
+    justify-content: center;
+    outline: 1px solid red; }
+    .main-nav::after {
+      width: 1050px;
+      bottom: 59px; }
+  .main-nav__header-logo {
+    order: 2;
+    width: 150px; }
+  .main-nav__text {
+    width: 500px; } }
+
 /*# sourceMappingURL=main-nav.css.map */

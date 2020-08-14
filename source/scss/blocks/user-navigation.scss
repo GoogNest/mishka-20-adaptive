@@ -139,4 +139,13 @@
     }
 }
 
+@media (min-width: 1050px) {
+    .user-navigation {
+        order: 3;
+        box-sizing: border-box;
+        margin: 0; 
+        width: 500px; 
+        padding-right: 50px;
 
+    }
+}

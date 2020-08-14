@@ -18,7 +18,7 @@
     text-align: left;
     
     border: none;
-    height: 79px;
+    min-height: 79px;
     padding: 27px 46px;
 
     position: relative;
@@ -56,7 +56,7 @@
         background-color: transparent; 
     }
 
-    .site-navigation__link {
+    .site-navigation__link { 
         font-size: 15px;
         padding: 19px 0; 
         width: 167px; 
@@ -66,4 +66,24 @@
             display: none;
         }
     }
+}
+
+@media (min-width: 1050px) {
+    .site-navigation {
+        order: 1;
+        width: 500px;
+
+        outline: 1px solid green;
+    }
+    
+    .site-navigation__link {
+        font-size: 17px;
+        line-height: 24px;
+
+        width: 234px;    
+        
+        padding: 27px 0; 
+
+        outline: 1px solid blue;
+    } 
 }
