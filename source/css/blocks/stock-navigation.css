@@ -1,2 +1,16 @@
+.stock-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+  display: flex; }
+
+.stock-navigation__item {
+  padding-top: 18px;
+  padding-left: 52px;
+  width: 166px; }
 
 /*# sourceMappingURL=stock-navigation.css.map */

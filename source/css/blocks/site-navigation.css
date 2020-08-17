@@ -52,13 +52,14 @@
 @media (min-width: 1050px) {
   .site-navigation {
     order: 1;
-    width: 500px;
-    outline: 1px solid green; }
+    width: 500px; }
   .site-navigation__link {
     font-size: 17px;
     line-height: 24px;
-    width: 234px;
-    padding: 27px 0;
-    outline: 1px solid blue; } }
+    width: 235px;
+    padding-top: 31px;
+    padding-left: 35px; }
+  .site-navigation__link--catalog {
+    padding-left: 50px; } }
 
 /*# sourceMappingURL=site-navigation.css.map */

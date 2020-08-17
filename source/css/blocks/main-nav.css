@@ -43,15 +43,20 @@
 
 @media (min-width: 1050px) {
   .main-nav {
-    justify-content: center;
-    outline: 1px solid red; }
+    justify-content: center; }
     .main-nav::after {
       width: 1050px;
       bottom: 59px; }
   .main-nav__header-logo {
     order: 2;
     width: 150px; }
+  .main-nav__stock-list {
+    order: 4;
+    display: inline-block;
+    z-index: 2; }
   .main-nav__text {
-    width: 500px; } }
+    order: 5;
+    width: 281px;
+    z-index: 2; } }
 
 /*# sourceMappingURL=main-nav.css.map */

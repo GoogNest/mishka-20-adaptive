@@ -153,3 +153,35 @@
         margin-left: -3px;
     }
 }
+
+@media (min-width: 1050px) {
+    .week-goods__title {
+        width: 700px;
+        font-size: 53px;
+        line-height: 57px;
+
+        margin-right: 0;
+        margin-left: 221px; 
+        margin-top: 124px; 
+    }
+
+    .week-goods__mark {
+        position: absolute; 
+        top: 136px; 
+        left: 96px;   
+    }
+
+    .week-goods__description {
+        margin-right: 0;
+        margin-left: 226px;   
+    }
+
+    .week-goods__table {
+        margin-left: 226px;
+        margin-top: 52px;   
+    }
+
+    .week-goods__table-row {
+        outline: 1px solid green;  
+    }
+}

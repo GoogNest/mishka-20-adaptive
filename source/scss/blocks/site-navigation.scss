@@ -51,7 +51,7 @@
     .site-navigation {
         order: 2;
         display: flex;
-        z-index: 2;
+        z-index: 2;  
         width: 334px;
         background-color: transparent; 
     }
@@ -72,18 +72,19 @@
     .site-navigation {
         order: 1;
         width: 500px;
-
-        outline: 1px solid green;
     }
     
     .site-navigation__link {
         font-size: 17px;
         line-height: 24px;
 
-        width: 234px;    
+        width: 235px;
         
-        padding: 27px 0; 
-
-        outline: 1px solid blue;
+        padding-top: 31px;
+        padding-left: 35px;  
     } 
+
+    .site-navigation__link--catalog {
+        padding-left: 50px;  
+    }
 }
