@@ -129,4 +129,15 @@
     margin-top: 58px;
     margin-bottom: 3px; } }
 
+@media (min-width: 1050px) {
+  .reviews {
+    width: 1050px;
+    margin-left: 50px;
+    margin-top: 67px; }
+  .reviews__title {
+    font-size: 53px;
+    line-height: 57px;
+    margin-top: 50px;
+    margin-left: 50px; } }
+
 /*# sourceMappingURL=reviews.css.map */

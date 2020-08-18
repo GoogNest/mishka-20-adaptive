@@ -119,6 +119,8 @@
     margin-left: -3px; } }
 
 @media (min-width: 1050px) {
+  .week-goods {
+    margin-bottom: 80px; }
   .week-goods__title {
     width: 700px;
     font-size: 53px;
@@ -135,8 +137,18 @@
     margin-left: 226px; }
   .week-goods__table {
     margin-left: 226px;
-    margin-top: 52px; }
+    margin-top: 47px; }
   .week-goods__table-row {
-    outline: 1px solid green; } }
+    min-width: 285px;
+    padding-top: 5px; }
+    .week-goods__table-row:first-child {
+      min-height: 40px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+  .week-goods__price {
+    margin-top: 106px;
+    margin-left: 229px; }
+  .week-goods__button {
+    margin-left: 225px; } }
 
 /*# sourceMappingURL=week-goods.css.map */

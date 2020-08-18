@@ -242,3 +242,31 @@
         bottom: 44px;
     }
 }
+
+@media (min-width: 1050px) {
+    .advantages {
+
+        &::after {
+            width: 1050px;
+            left: 50px; 
+            top: -6px;
+            background-size: 1050px 23px; 
+            background-position: -26px top; 
+
+        }
+    }
+
+    .advantages__title {  
+        
+        font-size: 53px;
+        line-height: 57px;
+
+        margin-top: 76px;
+        margin-left: 219px;
+    }
+
+    .advantages__list {
+        margin-left: 227px;  
+        width: 701px;
+    }
+}
