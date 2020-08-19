@@ -21,6 +21,9 @@
   font-weight: 400;
   color: #444444; }
 
+.reviews__text br {
+  display: none; }
+
 .reviews__author {
   font-style: normal; }
 
@@ -133,11 +136,31 @@
   .reviews {
     width: 1050px;
     margin-left: 50px;
-    margin-top: 67px; }
+    margin-top: 67px;
+    margin-bottom: 72px;
+    min-height: 457px; }
+    .reviews::after {
+      width: 1050px;
+      bottom: -90px;
+      background-size: 1050px 23px;
+      background-position: -22px top; }
   .reviews__title {
     font-size: 53px;
     line-height: 57px;
-    margin-top: 50px;
-    margin-left: 50px; } }
+    margin-top: 47px;
+    margin-left: 124px; }
+  .reviews__content {
+    margin-left: 176px;
+    margin-top: -4px;
+    width: 790px; }
+  .reviews__text br {
+    display: inline; }
+  .reviews__author-name {
+    font-size: 17px;
+    margin-top: 40px; }
+  .reviews__write-button {
+    margin-right: 0; }
+  .reviews__nav-buttons {
+    bottom: -181px; } }
 
 /*# sourceMappingURL=reviews.css.map */

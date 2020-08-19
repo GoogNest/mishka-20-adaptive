@@ -87,3 +87,27 @@
         margin-left: 0;
     }
 }
+
+@media (min-width: 1050px) {
+    .page-footer {  
+        min-height: 143px;
+        margin-top: 100px;  
+    }  
+
+    .page-footer__logo {  
+        margin-top: 50px;
+        margin-left: 51px;
+    } 
+
+    .page-footer__socials {
+        margin-top: 32px;
+        margin-left: 320px; 
+        margin-right: 242px;
+    }
+
+    .page-footer__copyright {
+        margin-top: 36px; 
+    }
+}
+
+

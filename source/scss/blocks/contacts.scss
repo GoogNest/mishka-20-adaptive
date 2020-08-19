@@ -142,3 +142,66 @@
         width: 228px;
     }
 }
+
+@media (min-width: 1050px) {
+    .contacts {
+        flex-direction: row;
+        flex-wrap: wrap;  
+        position: relative;
+
+        background-position: top 150px left 115px;  
+    }
+
+    .contacts__title {
+        font-size: 53px;
+        line-height: 57px;
+
+        width: 300px;  
+        margin-top: 159px;
+        margin-left: 219px;
+    }
+    .contacts__list {
+        order: 3;  
+        display: flex;
+        flex-wrap: wrap; 
+
+        position: absolute;
+        top: 215px;
+        left: 226px;
+
+        width: 300px;
+
+    }
+
+    .contacts__list-description {
+        margin-left: 23px;   
+    }
+
+    .contacts__list-term--adress {
+        margin-left: 0;  
+        margin-right: 1px;  
+        margin-top: 29px; 
+    }  
+
+    .contacts__list-description--adress {
+        margin-top: 29px;  
+    }
+
+    .contacts__map-wrapper { 
+        width: 500px;
+        margin-top: 70px;
+        margin-left: 75px;
+    }
+
+    .contacts__map-marker {
+        top: 163px;
+        right: 215px;
+    }
+
+        .contacts__button {
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+        }
+}
+
