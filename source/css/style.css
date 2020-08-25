@@ -14,7 +14,7 @@
 
 html, body {
   min-width: 320px;
-  min-height: 3500px; }
+  min-height: 1500px; }
 
 body {
   margin: 0;
@@ -1351,5 +1351,11 @@ input[type="radio"].visually-hidden {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.video__title {
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

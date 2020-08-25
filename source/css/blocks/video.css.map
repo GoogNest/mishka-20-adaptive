@@ -1,0 +1,1 @@
+{"version":3,"file":"video.css","sources":["blocks/video.scss"],"sourcesContent":[".video__title {\r\n    font-size: 17px;\r\nline-height: 24px;\r\ncolor: #000000;\r\nfont-weight: 700;\r\n}"],"names":[],"mappings":"AAAA,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;EACnB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG,GACf"}

@@ -16,7 +16,7 @@
 
 html, body {
     min-width: 320px;
-    min-height: 3500px;
+    min-height: 1500px;
   }
   
   body {
@@ -76,3 +76,4 @@ html, body {
 
   @import "blocks/inner-page-main.scss";
   @import "blocks/catalog.scss";
+  @import "blocks/video.scss";
