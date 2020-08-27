@@ -1,1 +1,1 @@
-{"version":3,"file":"page-header.css","sources":["blocks/page-header.scss"],"sourcesContent":[".page-header {\n    background-color: #ffffff;\n}\n"],"names":[],"mappings":"AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAO,GAC5B"}
+{"version":3,"sources":["blocks/page-header.scss"],"names":[],"mappings":"AAAA;EACI,yBAAyB,EAAA","file":"page-header.css","sourcesContent":[".page-header {\n    background-color: #ffffff;\n}\n"]}

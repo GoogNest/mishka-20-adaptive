@@ -28,7 +28,8 @@
 
 .contacts__list-description {
   display: inline-block;
-  margin-inline-start: unset;
+  -webkit-margin-start: unset;
+          margin-inline-start: unset;
   margin-top: 25px;
   vertical-align: top; }
 
